@@ -6,8 +6,14 @@ export default function Home() {
   return (
     <section className={styles.homePage}>
       <div className={styles.homeContainer1}>
-        <div className={styles.homeText}>HOME</div>
         <img className={styles.webImage} src={WebImage} />
+        <div className={styles.homeText}>
+          <h1>Welcome to my Portfolio Web!</h1>
+          <h1>
+            {" "}
+            I'M <span className={styles.myName}> MIRIAM BLANCO </span>
+          </h1>
+        </div>
       </div>
 
       <div className={styles.homeContainer2}>
