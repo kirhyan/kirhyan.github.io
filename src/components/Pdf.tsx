@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Document, Page } from "react-pdf";
-import cv from "../assets/images/CV_3D_250124_nophoto_compressed.pdf";
+import cv from "../assets/cv.pdf";
 
 export default function Pdf() {
   const [numPages, setNumPages] = useState<number>();

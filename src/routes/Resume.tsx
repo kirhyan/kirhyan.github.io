@@ -12,17 +12,25 @@ export default function Resume() {
   return (
     <section className={styles.resumePage}>
       <div className={styles.resumeContainer}>
-        <button className={styles.buttonDownload}>
+        <a
+          href="/src/assets/cv.pdf"
+          download="MiriamBlanco_Resume"
+          className={styles.buttonDownload}
+        >
           <FaDownload className={styles.downloadIcon} />
           Download CV
-        </button>
+        </a>
         <div className={styles.cv}>
           <Pdf />
         </div>
-        <button className={styles.buttonDownload}>
+        <a
+          href="/src/assets/cv.pdf"
+          download="MiriamBlanco_Resume"
+          className={styles.buttonDownload}
+        >
           <FaDownload className={styles.downloadIcon} />
           Download CV
-        </button>
+        </a>
       </div>
     </section>
   );

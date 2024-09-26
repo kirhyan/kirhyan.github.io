@@ -1,12 +1,12 @@
-import Avatar from "../assets/images/Avatar-copy.png";
-import WebImage from "../assets/images/Web-image2.png";
+import Avatar from "../assets/images/Avatar.png";
+import WebImage from "../assets/images/Home-image.png";
 import styles from "./Layout.module.css";
 
 export default function Home() {
   return (
-    <section className={styles.homePage}>
+    <div className={styles.homePage}>
       <div className={styles.homeContainer1}>
-        <img className={styles.webImage} src={WebImage} />
+        <img className={styles.webImage} src={WebImage} width="900px" />
         <div className={styles.homeText}>
           <h1>Welcome to my Portfolio Web!</h1>
           <h1>
@@ -18,8 +18,10 @@ export default function Home() {
 
       <div className={styles.homeContainer2}>
         <div className={styles.homePresentation}>PRESENTATION</div>
-        <img className={styles.avatar} src={Avatar} />
+        <div className={styles.avatar}>
+          <img src={Avatar} width="250px" />
+        </div>
       </div>
-    </section>
+    </div>
   );
 }
