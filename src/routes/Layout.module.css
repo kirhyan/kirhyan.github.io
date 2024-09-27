@@ -1,11 +1,10 @@
-/* .app {
+.app {
   display: flex;
   flex-direction: column;
-} */
-
-.webContainer {
-  width: 80%;
 }
+
+/* .webContainer {
+} */
 
 .webHeader {
   display: flex;
@@ -114,8 +113,14 @@
   flex-direction: column;
   flex: 1;
   align-items: center;
-  padding-top: 100px;
-  margin: 20px;
+  padding-top: 60px;
+}
+
+.projectsDev,
+.projects3D {
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
 }
 
 .resumePage {

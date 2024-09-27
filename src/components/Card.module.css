@@ -1,0 +1,39 @@
+.cardDev {
+  display: flex;
+  flex-direction: column;
+  border: solid black 2px;
+  border-radius: 8px;
+  background-color: rgb(28, 56, 51);
+  width: 300px;
+  height: 400px;
+  justify-content: center;
+}
+
+.card3D {
+  display: flex;
+  flex-direction: column;
+  border: solid black 2px;
+  border-radius: 8px;
+  background-color: rgb(28, 56, 51);
+  width: 500px;
+  height: 400px;
+  justify-content: center;
+}
+
+.title3D,
+.titleDev {
+  padding-bottom: 10px;
+}
+
+.container3D,
+.containerDev {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  align-items: center;
+}
+
+.container3D img,
+.containerDev img {
+  border-radius: 10px;
+}
