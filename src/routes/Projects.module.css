@@ -11,7 +11,8 @@
   flex-direction: column;
   flex: 1;
   align-items: center;
-  padding-top: 60px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .projectsDev,
@@ -19,4 +20,7 @@
   display: flex;
   flex-direction: row;
   column-gap: 50px;
+}
+.projectsTitles {
+  padding-bottom: 20px;
 }
