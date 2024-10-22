@@ -23,4 +23,6 @@
 }
 .projectsTitles {
   padding-bottom: 20px;
+  color: rgb(248, 249, 248);
+  text-transform: uppercase;
 }

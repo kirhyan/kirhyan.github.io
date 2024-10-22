@@ -8,7 +8,7 @@ export default function ProjectCard(props: { projectJS: Project }) {
     <div className={styles.cardDev}>
       <h2 className={styles.titleDev}>{projectJS.title}</h2>
       <div className={styles.containerDev}>
-        <img src={projectJS.imageUrl} width={250} />
+        <img src={projectJS.imageUrl} width={230} />
         <div> {projectJS.content}</div>
         <a href={projectJS.url} className={styles.buttonDev}>
           <FaGithub />

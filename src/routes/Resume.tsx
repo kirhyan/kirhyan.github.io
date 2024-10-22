@@ -1,5 +1,5 @@
 import { FaDownload } from "react-icons/fa6";
-import styles from "./Layout.module.css";
+import styles from "./Resume.module.css";
 import { pdfjs } from "react-pdf";
 import Pdf from "../components/Pdf";
 

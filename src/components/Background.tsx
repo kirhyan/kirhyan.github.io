@@ -561,11 +561,18 @@ export default function Background() {
 
   if (init) {
     return (
-      <Particles
-        id="tsparticles"
-        particlesLoaded={particlesLoaded}
-        options={options}
-      />
+      <div
+        style={{
+          position: "relative",
+          zIndex: -1,
+        }}
+      >
+        <Particles
+          id="tsparticles"
+          particlesLoaded={particlesLoaded}
+          options={options}
+        />
+      </div>
     );
   }
 

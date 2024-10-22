@@ -1,0 +1,25 @@
+.pagesStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arrow {
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 1.1rem;
+}
+
+.pageButton {
+  background-color: rgb(29, 53, 40);
+  border-radius: 20px;
+  padding: 5px 15px;
+  width: fit-content;
+  height: 40px;
+  border: solid white 1px;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  text-decoration: none;
+  justify-content: center;
+}

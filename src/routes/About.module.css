@@ -1,0 +1,74 @@
+.aboutContainer1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 40px 100px 40px 100px;
+}
+.aboutText {
+  width: 600px;
+  text-align: justify;
+  text-wrap: wrap;
+  font-size: 1.3rem;
+  hyphens: manual;
+  letter-spacing: 0.5px;
+  line-height: 32px;
+}
+
+.aboutText h1 {
+  width: 600px;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  color: rgb(236, 236, 236);
+  font-size: 2rem;
+}
+
+.aboutImage {
+  flex: 0.5;
+  width: 60%;
+  padding-left: 200px;
+}
+
+.aboutContainer2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aboutContainer2 h1 {
+  color: rgb(249, 249, 249);
+  font-size: 2.5rem;
+}
+
+.aboutIcons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.aboutIconsDev {
+  padding-bottom: 50px;
+  align-content: center;
+  padding-top: 20px;
+}
+
+.aboutIcons3D {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  column-gap: 40px;
+  row-gap: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.greenColor {
+  color: rgb(11, 131, 85);
+  font-weight: bold;
+}

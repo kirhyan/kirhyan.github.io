@@ -16,7 +16,7 @@ export default function Projects() {
         </div>
       </div>
       <div className={styles.projectsContainer}>
-        <h1 className={styles.projectsTitles}> 3D Environment Artist Works </h1>
+        <h1 className={styles.projectsTitles}> 3D Artist Works </h1>
         <div className={styles.projects3D}>
           {project3D.map((project, id) => {
             return <Card3D project3D={project} key={id} />;

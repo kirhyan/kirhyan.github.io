@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  column-gap: 20px;
+  justify-content: center;
+}
+
+.scrolled {
+  background-color: rgb(23, 23, 23);
+  transition: 1s ease;
+}

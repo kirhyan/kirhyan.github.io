@@ -6,4 +6,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(to left, rgb(20, 41, 37), rgb(15, 35, 35));
   color: white;
+  hyphens: manual;
+  letter-spacing: 0.5px;
+  line-height: 32px;
+  height: 100vh;
+}
+
+#root {
+  height: 100vh;
 }
