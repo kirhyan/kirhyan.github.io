@@ -14,7 +14,7 @@ export default function Resume() {
       <div className={styles.resumeContainer}>
         <a
           href="/src/assets/cv.pdf"
-          download="MiriamBlanco_Resume"
+          download="MiriamBlanco_Resume.pdf"
           className={styles.buttonDownload}
         >
           <FaDownload className={styles.downloadIcon} />
@@ -25,7 +25,7 @@ export default function Resume() {
         </div>
         <a
           href="/src/assets/cv.pdf"
-          download="MiriamBlanco_Resume"
+          download="MiriamBlanco_Resume.pdf"
           className={styles.buttonDownload}
         >
           <FaDownload className={styles.downloadIcon} />
