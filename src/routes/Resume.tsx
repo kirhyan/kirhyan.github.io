@@ -2,6 +2,7 @@ import { FaDownload } from "react-icons/fa6";
 import styles from "./Resume.module.css";
 import { pdfjs } from "react-pdf";
 import Pdf from "../components/Pdf";
+import pdfUrl from "../assets/cv.pdf";
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   "pdfjs-dist/build/pdf.worker.min.mjs",
@@ -13,7 +14,7 @@ export default function Resume() {
     <section className={styles.resumePage}>
       <div className={styles.resumeContainer}>
         <a
-          href="/src/assets/cv.pdf"
+          href={pdfUrl}
           download="MiriamBlanco_Resume.pdf"
           className={styles.buttonDownload}
         >
@@ -24,7 +25,7 @@ export default function Resume() {
           <Pdf />
         </div>
         <a
-          href="/src/assets/cv.pdf"
+          href={pdfUrl}
           download="MiriamBlanco_Resume.pdf"
           className={styles.buttonDownload}
         >
