@@ -1,0 +1,114 @@
+.navMenu {
+  display: flex;
+  flex-direction: row;
+}
+
+.groupMenuItems {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: flex-end;
+  margin: 5px;
+  font-size: 1.5rem;
+  column-gap: 5rem;
+}
+
+.navlink {
+  text-decoration: none;
+  padding: 5px 10px 5px 10px;
+  color: var(--title-color);
+}
+
+.navClose {
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+.navToggle {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 1.5rem;
+  margin: 20px;
+}
+
+.showMenu {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  top: -40%;
+  right: 00%;
+  background-color: hsla(0, 0%, 6%, 0.895);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  width: 100%;
+  padding-top: 8rem;
+  padding-left: 1rem;
+  transition: right 0.4s;
+  padding-bottom: 3rem;
+}
+
+/* @media screen and (max-width: 768px) {
+  .groupMenuItems {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 6rem;
+    font-size: 1.5;
+    top: -40%;
+    right: -30%;
+    background-color: hsla(0, 0%, 6%, 0.895);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    width: 80%;
+    padding-top: 35rem;
+    padding-left: 3rem;
+    transition: right 0.4s;
+    padding-bottom: 3rem;
+  }
+  .navClose,
+  .navToggle {
+    right: 2rem;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .navClose {
+    display: none;
+  }
+
+  .groupMenuItems {
+    flex-direction: row;
+    column-gap: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 850px) {
+  .groupMenuItems {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 6rem;
+    font-size: 1.5;
+    top: -40%;
+    right: -30%;
+    background-color: hsla(0, 0%, 6%, 0.895);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    width: 80%;
+    padding-top: 35rem;
+    padding-left: 3rem;
+    transition: right 0.4s;
+    padding-bottom: 3rem;
+  }
+  .navClose,
+  .navToggle {
+    right: 4rem;
+  }
+} */

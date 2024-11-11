@@ -4,9 +4,7 @@
   flex-direction: row;
   column-gap: 20px;
   justify-content: center;
-}
-
-.scrolled {
-  background-color: rgb(23, 23, 23);
-  transition: 1s ease;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  text-align: center;
 }
