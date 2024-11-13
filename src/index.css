@@ -18,6 +18,21 @@
   }
 }
 
+@media (max-width: 600px) {
+  body {
+    background: linear-gradient(
+      -50deg,
+      #9095e3 0%,
+      #472a72 20%,
+      #2b4c79 40%,
+      #15462c 60%,
+      #2b4c79 80%,
+      #9095e3 100%
+    );
+    zoom: 0.8;
+  }
+}
+
 body {
   margin: 0;
   font-family: "Raleway", serif !important;

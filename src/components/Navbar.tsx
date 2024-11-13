@@ -26,11 +26,14 @@ export default function Navbar() {
   };
 
   const renderMobileNavbarToggle = () => {
-    return (
-      <div className={styles.navToggle} onClick={toggleMenu}>
-        <IoMenu />
-      </div>
-    );
+    if (!isMenuOpen) {
+      return (
+        <div className={styles.navToggle} onClick={toggleMenu}>
+          <IoMenu />
+        </div>
+      );
+    }
+    return null;
   };
 
   const renderMobileNavbar = () => {

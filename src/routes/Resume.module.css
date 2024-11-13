@@ -5,7 +5,9 @@
   height: 100%;
   margin: 20px 5px 5px 5px;
   justify-content: center;
+  align-items: center;
 }
+
 .resumeContainer {
   display: flex;
   flex-direction: column;
@@ -20,18 +22,20 @@
 }
 
 .buttonDownload {
-  background-color: rgb(29, 53, 40);
+  background-color: #8782e166;
   border-radius: 20px;
-  padding: 5px 10px 5px 15px;
-  width: 180px;
+  padding: 0 10px 8px 17px;
+  width: 200px;
   border: solid white 1px;
   color: white;
   font-size: 1.25rem;
   cursor: pointer;
   text-decoration: none;
+  justify-content: center;
 }
 
 .downloadIcon {
-  padding-right: 15px;
-  font-size: 1.25rem;
+  padding-right: 10px;
+  padding-top: 6px;
+  font-size: 2rem;
 }

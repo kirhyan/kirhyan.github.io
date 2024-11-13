@@ -21,94 +21,42 @@
 
 .navClose {
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 2rem;
   display: flex;
-  align-items: flex-end;
+  padding-right: 2rem;
 }
 
 .navToggle {
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  font-size: 1.5rem;
-  margin: 20px;
+  row-gap: 1.5rem;
+  align-items: flex-start;
+  font-size: 2rem;
+  padding: 0 2rem;
+  max-width: 500px;
 }
 
 .showMenu {
-  position: relative;
+  margin-top: -1rem;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  top: -40%;
-  right: 00%;
-  background-color: hsla(0, 0%, 6%, 0.895);
+  background-color: hsla(0, 0%, 14%, 0.382);
+  border-radius: 5%;
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  width: 100%;
-  padding-top: 8rem;
-  padding-left: 1rem;
-  transition: right 0.4s;
-  padding-bottom: 3rem;
+  padding: 2rem 0 2rem 1rem;
+  max-width: 500px;
 }
 
-/* @media screen and (max-width: 768px) {
-  .groupMenuItems {
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    row-gap: 6rem;
-    font-size: 1.5;
-    top: -40%;
-    right: -30%;
-    background-color: hsla(0, 0%, 6%, 0.895);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-    width: 80%;
-    padding-top: 35rem;
-    padding-left: 3rem;
-    transition: right 0.4s;
-    padding-bottom: 3rem;
+@media (max-width: 600px) {
+  .showMenu {
+    width: 280px;
+    padding: 1rem, 0;
   }
-  .navClose,
-  .navToggle {
-    right: 2rem;
-  }
-}
 
-@media screen and (min-width: 850px) {
+  .navToggle,
   .navClose {
-    display: none;
-  }
-
-  .groupMenuItems {
-    flex-direction: row;
-    column-gap: 2.5rem;
+    font-size: 1.8rem;
+    padding: 0 1rem;
   }
 }
-
-@media screen and (min-width: 769px) and (max-width: 850px) {
-  .groupMenuItems {
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    row-gap: 6rem;
-    font-size: 1.5;
-    top: -40%;
-    right: -30%;
-    background-color: hsla(0, 0%, 6%, 0.895);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-    width: 80%;
-    padding-top: 35rem;
-    padding-left: 3rem;
-    transition: right 0.4s;
-    padding-bottom: 3rem;
-  }
-  .navClose,
-  .navToggle {
-    right: 4rem;
-  }
-} */
