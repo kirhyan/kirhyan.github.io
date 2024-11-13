@@ -13,14 +13,6 @@ export default function Resume() {
   return (
     <section className={styles.resumePage}>
       <div className={styles.resumeContainer}>
-        <a
-          href={pdfUrl}
-          download="MiriamBlanco_Resume.pdf"
-          className={styles.buttonDownload}
-        >
-          <FaDownload className={styles.downloadIcon} />
-          Download CV
-        </a>
         <div className={styles.cv}>
           <Pdf />
         </div>

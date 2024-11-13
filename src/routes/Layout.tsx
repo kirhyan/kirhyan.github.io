@@ -11,7 +11,7 @@ export default function Layout() {
         <Background />
         <div className={styles.container}>
           <Header />
-          <div id="detail" className={styles.webContainer}>
+          <div className={styles.content}>
             <Outlet />
           </div>
           <Footer />

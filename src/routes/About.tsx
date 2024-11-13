@@ -7,43 +7,40 @@ import AboutCardDev from "../components/AboutCardDev";
 export default function About() {
   return (
     <div className={styles.aboutPage}>
-      <div className={styles.aboutContainer1}>
-        <div className={styles.aboutText}>
+      <div className={styles.row}>
+        <div className={styles.column}>
           <h1>ABOUT ME</h1>
           <p>
             Hi! I'm <span className={styles.greenColor}>Miriam Blanco</span>{" "}
             from <span className={styles.greenColor}>Madrid, Spain.</span> Here
             you can learn a little more about me!
-          </p>
-          <p>
+            <br />
             With a unique background in both{" "}
             <span className={styles.greenColor}>creative</span> and{" "}
             <span className={styles.greenColor}>technical fields,</span> I’ve
             found my passion in{" "}
-            <span className={styles.greenColor}>web development.</span>{" "}
-          </p>
-          <p>
-            I hold a Double Bachelor's Degree in Business Management and
+            <span className={styles.greenColor}>web development.</span> <br />I
+            hold a Double Bachelor's Degree in Business Management and
             Audiovisual Communication, and after gaining experience in{" "}
             <span className={styles.greenColor}>3D design</span> for video
             games, I shifted my focus to the world of{" "}
             <span className={styles.greenColor}>web development.</span>
-          </p>
-          <p>
+            <br />
             Specializing in{" "}
-            <span className={styles.greenColor}>HTML, CSS, JavaScript,</span>{" "}
+            <span className={styles.greenColor}>
+              HTML, CSS, JavaScript,
+            </span>{" "}
             and <span className={styles.greenColor}>React,</span> I love
-            creating dynamic, responsive, and visually engaging websites.{" "}
-          </p>
-          <p>
+            creating dynamic, responsive, and visually engaging websites. <br />
             My diverse experience gives me a fresh perspective on design and
             functionality, allowing me to build user-friendly web applications
-            that blend <span className={styles.greenColor}>creativity</span> and{" "}
-            <span className={styles.greenColor}>performance.</span>
+            that blend <span className={styles.greenColor}>
+              creativity
+            </span> and <span className={styles.greenColor}>performance.</span>
           </p>
         </div>
-        <div className={styles.aboutImage}>
-          <img src={AboutImage} width={900} />
+        <div className={styles.column}>
+          <img src={AboutImage} className={styles.webImage} width={900} />
         </div>
       </div>
       <div className={styles.aboutContainer2}>

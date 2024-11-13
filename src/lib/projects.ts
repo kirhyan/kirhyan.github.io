@@ -44,8 +44,7 @@ export const project3D: Project[] = [
   {
     title: "World of Warcraft Artifact",
     imageUrl: swordImage,
-    content:
-      "Death Kmight Artifact Sword Fan Art in 3D from the videogame World of Warcraft",
+    content: "DK Artifact Sword Fan Art from World of Warcraft",
     url: "https://www.artstation.com/artwork/zOAQBm",
   },
   {
@@ -57,7 +56,7 @@ export const project3D: Project[] = [
   {
     title: "Pumpkin House",
     imageUrl: pumpkinImage,
-    content: "Cute Pumpking House for the videogame Kiku's Magic Hat",
+    content: "Pumpking House for the videogame Kiku's Magic Hat",
     url: "https://www.artstation.com/artwork/LR0BDP,",
   },
 ];

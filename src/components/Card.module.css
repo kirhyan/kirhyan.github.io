@@ -1,28 +1,38 @@
 .cardDev {
   display: flex;
   flex-direction: column;
-  border: solid black 2px;
+  border: solid rgba(0, 0, 0, 0.501) 2px;
   border-radius: 8px;
-  background-color: rgb(28, 56, 51);
+  background-color: rgba(101, 147, 174, 0.718);
+  box-shadow: 0 0 7px 5px rgba(152, 145, 246, 0.551);
   width: 300px;
   height: 480px;
   justify-content: center;
+  margin-top: 2rem;
 }
 
 .card3D {
   display: flex;
   flex-direction: column;
-  border: solid black 2px;
+  border: solid rgba(0, 0, 0, 0.474) 2px;
   border-radius: 8px;
-  background-color: rgb(28, 56, 51);
+  background-color: rgba(73, 144, 116, 0.586);
+  box-shadow: 0 0 7px 5px rgba(152, 145, 246, 0.551);
   width: 500px;
   height: 450px;
   justify-content: center;
+  margin-top: 2rem;
+}
+
+.cardDev:hover,
+.card3D:hover {
+  transform: scale(1.1);
 }
 
 .title3D,
 .titleDev {
   height: auto;
+  margin-bottom: 1rem;
 }
 
 .container3D,
@@ -34,15 +44,19 @@
   justify-content: center;
 }
 
-.container3D img,
+.container3D img {
+  border-radius: 10px;
+  box-shadow: 0 0 7px 3px rgba(72, 72, 72, 0.73);
+}
 .containerDev img {
   border-radius: 10px;
+  box-shadow: 0 0 7px 3px rgba(210, 210, 210, 0.699);
 }
 
 .buttonDev {
   display: flex;
   text-decoration: none;
-  background-color: rgb(49, 97, 89);
+  background-color: rgb(51, 108, 141);
   color: white;
   font-weight: bold;
   width: 90px;
@@ -56,7 +70,7 @@
 .button3D {
   display: flex;
   text-decoration: none;
-  background-color: rgb(49, 97, 89);
+  background-color: rgb(39, 86, 79);
   color: white;
   font-weight: bold;
   width: 120px;
@@ -70,13 +84,45 @@
 .cardAbout {
   display: flex;
   flex-direction: column;
-  background-color: rgb(49, 97, 89);
+  /* background-color: rgb(49, 97, 89); */
+  background: linear-gradient(
+    -50deg,
+    #7479bbd5 0%,
+    #5ab7ed98 50%,
+    #ca8ceb8f 100%
+  );
+  /* background: linear-gradient(
+    -50deg,
+    #bb7474d5 0%,
+    #d6a170e9 50%,
+    #fbf584c4 100%
+  ); */
+
   width: 100px;
   height: 100px;
   border-radius: 5px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  border: solid rgba(34, 106, 73, 0.982) 1px;
+  box-shadow: 0 0 7px 3px #dedede84;
+  /* box-shadow: 0 0 7px 5px #3bc5828e; */
+}
+
+.cardAbout:hover {
+  transform: scale(1.2);
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .iconsDev {
