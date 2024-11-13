@@ -21,7 +21,7 @@ export default function Header() {
     <header
       className={`${styles.container} ${isScrolled ? styles.scrolled : ""}`}
     >
-      <SocialMediaLinks />
+      <SocialMediaLinks  />
       <Navbar />
     </header>
   );

@@ -2,14 +2,14 @@ import { useState } from "react";
 import { Document, Page } from "react-pdf";
 import cv from "../assets/cv.pdf";
 import { FaArrowRightLong, FaArrowLeftLong } from "react-icons/fa6";
-import { useMediaQuery } from "react-responsive";
+/* import { useMediaQuery } from "react-responsive"; */
 import styles from "./Pdf.module.css";
 
 export default function Pdf() {
   const [numPages, setNumPages] = useState<number>(0);
   const [pageNumber, setPageNumber] = useState<number>(1);
 
-  const isMobile = useMediaQuery({ maxWidth: "700px" });
+  /* const isMobile = useMediaQuery({ maxWidth: "700px" }); */
 
   function onDocumentLoadSuccess({ numPages }: { numPages: number }): void {
     setNumPages(numPages);
