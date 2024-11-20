@@ -1,9 +1,11 @@
 .projectsPage {
+  box-sizing: border-box;
   display: flex;
   flex: 1;
   flex-direction: column;
   text-align: center;
   row-gap: 80px;
+  width: 100%;
 }
 
 .projectsContainer {
@@ -22,11 +24,29 @@
   row-gap: 50px;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 0 30px;
 }
 
 .projectsTitles {
-  padding-bottom: 20px;
   color: rgb(248, 249, 248);
   text-transform: uppercase;
+}
+
+@media (max-width: 1150px) {
+  .projectsTitles {
+    font-size: 1.5rem;
+    text-wrap: balance;
+  }
+
+  .projectsPage {
+    justify-content: center;
+    max-width: 100%;
+    padding: 0 10px;
+    flex-wrap: wrap;
+  }
+
+  .projectsDev,
+  .projects3D {
+    column-gap: 25px;
+    row-gap: 15px;
+  }
 }

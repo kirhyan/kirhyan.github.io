@@ -1,21 +1,19 @@
 .container {
-  display: flex;
-  flex-direction: row;
   position: fixed;
   z-index: var(--z-fixed);
   top: 0;
   left: 0;
   width: 100%;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
   padding: 10px 20px;
 }
 
 .scrolled {
   background-color: rgb(23, 23, 23);
   transition: 0.5s ease;
-}
-
-@media (max-width: 600px) {
-  .container {
-    padding: 10px 0;
-  }
 }

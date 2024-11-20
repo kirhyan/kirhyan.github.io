@@ -1,21 +1,12 @@
-.groupMediaIcons {
+.container {
   display: flex;
   flex-direction: row;
   flex: 1;
-  justify-content: flex-start;
-  align-items: center;
-  margin: 5px;
   font-size: 1.5rem;
-  height: fit-content;
+  column-gap: 20px;
 }
 
-.webMediaIcons {
-  align-items: center;
-  text-align: center;
-  padding-left: 20px;
-}
-
-.icons a {
-  text-decoration: none;
-  color: white;
+.container a {
+  display: flex;
+  align-self: center;
 }

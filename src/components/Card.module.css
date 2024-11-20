@@ -62,58 +62,84 @@
   max-width: 400px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1150px) {
   .cardDev {
     max-width: 200px;
     height: 300px;
   }
 
   .card3D {
-    max-width: 400px;
-    max-height: 300px;
+    max-width: 350px;
+    max-height: 280px;
+    margin: 0;
   }
-
-  .title3D,
   .titleDev {
     height: auto;
     font-size: 1rem;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+  .title3D {
+    height: auto;
+    font-size: 1rem;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
   }
 
   .container3D,
   .containerDev {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     position: relative;
   }
-  .contentDev,
+  .contentDev {
+    font-size: 0.8rem;
+    line-height: 15px;
+    text-wrap: wrap;
+    hyphens: manual;
+    padding-top: 15px;
+    position: relative;
+    bottom: 30px;
+    max-width: 90%;
+  }
+
   .content3D {
     font-size: 0.8rem;
     line-height: 15px;
     text-wrap: wrap;
     hyphens: manual;
-    margin: 0;
+    margin-top: 0;
+    position: relative;
+    bottom: 20px;
   }
 
   .imageDev {
     max-width: 150px;
+    margin-top: 20px;
   }
 
   .image3D {
-    max-width: 300px;
+    max-width: 280px;
+    margin-top: 8%;
   }
 
   .buttonDev {
     width: 70px;
     height: 20px;
     position: relative;
-    bottom: 10px;
+    bottom: 40px;
   }
 
   .button3D {
     width: 100px;
     height: 20px;
+    position: relative;
+    bottom: 35px;
   }
 }
 
@@ -201,7 +227,9 @@
 }
 
 .icons3D {
-  padding-top: 10px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -230,4 +258,24 @@
 .tooltip:hover .tooltipText {
   visibility: visible;
   opacity: 1;
+}
+
+@media (max-width: 1150px) {
+  .cardAbout {
+    width: 70px;
+    height: 70px;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+  }
+
+  .iconsDev {
+    font-size: 3rem;
+    column-gap: 30px;
+    row-gap: 30px;
+  }
+  .icons3D {
+    column-gap: 30px;
+    row-gap: 30px;
+  }
 }

@@ -9,7 +9,6 @@
 .row {
   display: flex;
   flex-direction: row;
-  margin-top: 70px;
   flex-wrap: wrap;
   align-items: center;
   row-gap: 100px;
@@ -42,45 +41,49 @@
   min-width: 400px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1150px) {
+  .aboutPage {
+    overflow: hidden;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    row-gap: 0px;
+  }
+
+  .row {
+    margin-top: 30px;
+    row-gap: 50px;
+    column-gap: 0px;
+  }
+
   .column p {
-    max-width: 500px;
+    font-size: 1rem;
+    max-width: 100%;
+    min-width: fit-content;
+    text-align: center;
+    text-wrap: wrap;
+  }
+
+  .webImage {
+    max-width: 350px;
+    min-width: 100px;
+  }
+
+  .aboutContainer2 h2 {
+    padding-top: 30px;
+  }
+
+  .aboutIcons3D {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
   }
 }
-/* .aboutContainer1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  padding: 40px 100px 40px 100px;
-  flex-wrap: wrap;
-} */
-/* .aboutText {
-  width: 600px;
-  text-align: justify;
-  text-wrap: wrap;
-  font-size: 1.3rem;
-  hyphens: manual;
-  letter-spacing: 0.5px;
-  line-height: 32px;
-}
-
-.aboutText h1 {
-  width: 600px;
-  text-align: center;
-  justify-content: center;
-  padding-bottom: 20px;
-  color: rgb(236, 236, 236);
-  font-size: 2rem;
-}
-
-.aboutImage {
-  flex: 0.5;
-  width: 60%;
-  padding-left: 200px;
-  flex-wrap: wrap;
-} */
 
 .aboutContainer2 {
   margin-top: 80px;
@@ -100,17 +103,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 20px;
   padding-bottom: 20px;
 }
-
-/* .aboutIconsDev {
-  padding-bottom: 50px;
-  align-content: center;
-  padding-top: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
-} */
 
 .aboutIconsDev {
   display: flex;
@@ -124,17 +118,16 @@
   flex-wrap: wrap;
 }
 
-.aboutIcons3D {
+/* .aboutIcons3D {
   display: flex;
   flex-direction: row;
-  align-content: center;
   justify-content: center;
   column-gap: 40px;
   row-gap: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
   flex-wrap: wrap;
-}
+} */
 
 .greenColor {
   color: rgb(11, 131, 85);

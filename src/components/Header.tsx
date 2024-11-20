@@ -8,7 +8,7 @@ export default function Header() {
 
   useEffect(() => {
     const handler = () => {
-      setIsScrolled(window.scrollY >= 100);
+      setIsScrolled(window.scrollY >= 50);
     };
 
     window.addEventListener("scroll", handler);
@@ -21,8 +21,10 @@ export default function Header() {
     <header
       className={`${styles.container} ${isScrolled ? styles.scrolled : ""}`}
     >
-      <SocialMediaLinks  />
-      <Navbar />
+      <div className={styles.content}>
+        <SocialMediaLinks />
+        <Navbar />
+      </div>
     </header>
   );
 }
