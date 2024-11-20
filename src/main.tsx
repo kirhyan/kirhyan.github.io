@@ -1,6 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import Layout from "./routes/Layout.tsx";
+import "normalize.css";
 import "./index.css";
 import { createHashRouter, RouterProvider } from "react-router-dom";
 import About from "./routes/About.tsx";

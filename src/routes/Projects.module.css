@@ -1,10 +1,9 @@
 .projectsPage {
   display: flex;
+  flex: 1;
   flex-direction: column;
-  width: 100%;
-  height: 100%;
   text-align: center;
-  margin-top: 200px;
+  row-gap: 80px;
 }
 
 .projectsContainer {
@@ -12,19 +11,20 @@
   flex-direction: column;
   flex: 1;
   align-items: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
 }
 
 .projectsDev,
 .projects3D {
   display: flex;
+  flex: 1;
   flex-direction: row;
   column-gap: 50px;
   row-gap: 50px;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 0 30px;
 }
+
 .projectsTitles {
   padding-bottom: 20px;
   color: rgb(248, 249, 248);

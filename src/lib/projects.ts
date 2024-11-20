@@ -23,19 +23,19 @@ const projectJS: Project[] = [
   {
     title: "Quiz App",
     imageUrl: quizAppImage,
-    content: "Is a quiz app with some questions and their correct answer",
+    content: "Quiz app with some questions and their correct answer",
     url: "https://github.com/kirhyan/quiz-app",
   },
   {
     title: "Video Games Api",
     imageUrl: videogameApiImage,
-    content: "A web to find the best videogames deals",
+    content: "A website to find the best videogames deals",
     url: "https://github.com/kirhyan/react-video-games-api",
   },
   {
     title: "Book Tracker",
     imageUrl: bookTrackerImage,
-    content: "A web to save your read and want to read",
+    content: "Web to save your read and want to read",
     url: "https://github.com/kirhyan/book-tracker",
   },
 ];

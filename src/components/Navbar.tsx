@@ -15,7 +15,6 @@ export default function Navbar() {
   const isMobile = useMediaQuery({ maxWidth: "1150px" });
 
   const toggleMenu = () => {
-    console.log(isMenuOpen);
     setIsMenuOpen(!isMenuOpen);
   };
 

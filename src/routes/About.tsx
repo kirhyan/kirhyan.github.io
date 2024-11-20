@@ -15,12 +15,13 @@ export default function About() {
             from <span className={styles.greenColor}>Madrid, Spain.</span> Here
             you can learn a little more about me!
             <br />
+            <br />
             With a unique background in both{" "}
             <span className={styles.greenColor}>creative</span> and{" "}
             <span className={styles.greenColor}>technical fields,</span> I’ve
             found my passion in{" "}
-            <span className={styles.greenColor}>web development.</span> <br />I
-            hold a Double Bachelor's Degree in Business Management and
+            <span className={styles.greenColor}>web development.</span> <br />
+            <br />I hold a Double Bachelor's Degree in Business Management and
             Audiovisual Communication, and after gaining experience in{" "}
             <span className={styles.greenColor}>3D design</span> for video
             games, I shifted my focus to the world of{" "}
@@ -32,6 +33,7 @@ export default function About() {
             </span>{" "}
             and <span className={styles.greenColor}>React,</span> I love
             creating dynamic, responsive, and visually engaging websites. <br />
+            <br />
             My diverse experience gives me a fresh perspective on design and
             functionality, allowing me to build user-friendly web applications
             that blend <span className={styles.greenColor}>
@@ -40,7 +42,7 @@ export default function About() {
           </p>
         </div>
         <div className={styles.column}>
-          <img src={AboutImage} className={styles.webImage} width={900} />
+          <img src={AboutImage} className={styles.webImage} />
         </div>
       </div>
       <div className={styles.aboutContainer2}>

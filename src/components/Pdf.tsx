@@ -1,15 +1,29 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Document, Page } from "react-pdf";
 import cv from "../assets/cv.pdf";
 import { FaArrowRightLong, FaArrowLeftLong } from "react-icons/fa6";
-/* import { useMediaQuery } from "react-responsive"; */
+import { useMediaQuery } from "react-responsive";
 import styles from "./Pdf.module.css";
+
+const useScreenWidth = () => {
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => setScreenWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  return screenWidth;
+};
 
 export default function Pdf() {
   const [numPages, setNumPages] = useState<number>(0);
   const [pageNumber, setPageNumber] = useState<number>(1);
 
-  /* const isMobile = useMediaQuery({ maxWidth: "700px" }); */
+  const screenWidth = useScreenWidth();
+
+  const isLaptopOrMobile = useMediaQuery({ maxWidth: "1150px" });
 
   function onDocumentLoadSuccess({ numPages }: { numPages: number }): void {
     setNumPages(numPages);
@@ -27,11 +41,11 @@ export default function Pdf() {
           renderTextLayer={false}
           renderAnnotationLayer={false}
           className={styles.pdfPage}
+          width={isLaptopOrMobile ? screenWidth * 0.8 : 900}
         />
       </Document>
       <div className={styles.pagesStyle}>
         <p>
-          {" "}
           Page {pageNumber} of {numPages}
         </p>
         {pageNumber > 1 ? (

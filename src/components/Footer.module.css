@@ -1,12 +1,20 @@
 .container {
   display: flex;
-  flex: 1;
   flex-direction: row;
   column-gap: 20px;
   justify-content: center;
   flex-wrap: wrap;
-  padding-left: 20px;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 10px;
+}
+
+.container p {
+  font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  .container p {
+    font-size: 0.8rem;
+  }
 }

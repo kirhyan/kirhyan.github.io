@@ -51,30 +51,36 @@
   row-gap: 1.5rem;
   align-items: flex-start;
   font-size: 2rem;
-  padding: 0 2rem;
+  padding: 0 1rem;
   max-width: 500px;
 }
 
 .showMenu {
   margin-top: -1rem;
   display: flex;
+  position: absolute;
   background-color: hsla(0, 0%, 14%, 0.382);
   border-radius: 5%;
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   padding: 2rem 0 2rem 1rem;
   max-width: 500px;
+  right: -10px;
 }
 
 @media (max-width: 600px) {
   .showMenu {
-    width: 280px;
+    width: 250px;
     padding: 1rem, 0;
+  }
+
+  .groupMenuItems {
+    font-size: 1rem;
   }
 
   .navToggle,
   .navClose {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     padding: 0 1rem;
   }
 }

@@ -1,11 +1,12 @@
 .cardDev {
   display: flex;
+  flex: 1;
   flex-direction: column;
   border: solid rgba(0, 0, 0, 0.501) 2px;
   border-radius: 8px;
   background-color: rgba(101, 147, 174, 0.718);
   box-shadow: 0 0 7px 5px rgba(152, 145, 246, 0.551);
-  width: 300px;
+  max-width: 300px;
   height: 480px;
   justify-content: center;
   margin-top: 2rem;
@@ -51,6 +52,69 @@
 .containerDev img {
   border-radius: 10px;
   box-shadow: 0 0 7px 3px rgba(210, 210, 210, 0.699);
+}
+
+.imageDev {
+  max-width: 230px;
+}
+
+.image3D {
+  max-width: 400px;
+}
+
+@media (max-width: 600px) {
+  .cardDev {
+    max-width: 200px;
+    height: 300px;
+  }
+
+  .card3D {
+    max-width: 400px;
+    max-height: 300px;
+  }
+
+  .title3D,
+  .titleDev {
+    height: auto;
+    font-size: 1rem;
+  }
+
+  .container3D,
+  .containerDev {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .contentDev,
+  .content3D {
+    font-size: 0.8rem;
+    line-height: 15px;
+    text-wrap: wrap;
+    hyphens: manual;
+    margin: 0;
+  }
+
+  .imageDev {
+    max-width: 150px;
+  }
+
+  .image3D {
+    max-width: 300px;
+  }
+
+  .buttonDev {
+    width: 70px;
+    height: 20px;
+    position: relative;
+    bottom: 10px;
+  }
+
+  .button3D {
+    width: 100px;
+    height: 20px;
+  }
 }
 
 .buttonDev {
@@ -150,8 +214,8 @@
   visibility: hidden;
   font-size: 1.2rem;
   width: fit-content;
-  background-color: rgb(16, 62, 56);
-  color: #fff;
+  background-color: rgb(253, 254, 254);
+  color: black;
   text-align: center;
   border-radius: 6px;
   padding: 5px;
