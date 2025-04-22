@@ -1,5 +1,5 @@
-import Avatar from "../assets/images/Avatar.png";
-import WebImage from "../assets/images/Home-image.png";
+import Avatar from "../assets/images/Avatar.webp";
+import WebImage from "../assets/images/Home-image.webp";
 import { useMediaQuery } from "react-responsive";
 import styles from "./Home.module.css";
 

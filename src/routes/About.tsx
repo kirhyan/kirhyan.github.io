@@ -1,4 +1,4 @@
-import AboutImage from "../assets/images/Programmer.png";
+import AboutImage from "../assets/images/Programmer.webp";
 import styles from "./About.module.css";
 import AboutCard3D from "../components/AboutCard3D";
 import icon3D from "../lib/icons";

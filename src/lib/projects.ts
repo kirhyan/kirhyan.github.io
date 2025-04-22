@@ -1,10 +1,10 @@
-import swordImage from "../assets/images/3D_Sword.jpg";
-import ravenclawImage from "../assets/images/3D_Ravenclaw.jpg";
-import pumpkinImage from "../assets/images/3D_Pumpkin.jpg";
-import quizAppImage from "../assets/images/quiz-app.png";
-import videogameApiImage from "../assets/images/videogame-api.png";
-import bookTrackerImage from "../assets/images/Book-tracker.png";
-import spaceNewsImage from "../assets/images/space-news.png";
+import swordImage from "../assets/images/3D_Sword.webp";
+import ravenclawImage from "../assets/images/3D_Ravenclaw.webp";
+import pumpkinImage from "../assets/images/3D_Pumpkin.webp";
+import quizAppImage from "../assets/images/quiz-app.webp";
+import videogameApiImage from "../assets/images/videogame-api.webp";
+import bookTrackerImage from "../assets/images/Book-tracker.webp";
+import spaceNewsImage from "../assets/images/space-news.webp";
 
 export interface Project {
   title: string;
@@ -57,7 +57,7 @@ export const project3D: Project[] = [
     title: "Pumpkin House",
     imageUrl: pumpkinImage,
     content: "Pumpking House for the videogame Kiku's Magic Hat",
-    url: "https://www.artstation.com/artwork/LR0BDP,",
+    url: "https://www.artstation.com/artwork/LR0BDP",
   },
 ];
 
