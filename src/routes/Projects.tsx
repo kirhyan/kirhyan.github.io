@@ -9,7 +9,6 @@ export default function Projects() {
       <div className={styles.projectsContainer}>
         <h1 className={styles.projectsTitles}> Frontend Developer Works </h1>
         <div className={styles.projectsDev}>
-          {/* por cada project en projectjs, renderizo un Card pasandole la info de cada project */}
           {projectJS.map((project, id) => {
             return <CardDev projectJS={project} key={id} />;
           })}

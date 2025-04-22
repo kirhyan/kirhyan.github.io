@@ -18,25 +18,29 @@ export default function Home() {
       <h1>
         I'M <span className={styles.myName}> MIRIAM BLANCO,</span>
       </h1>
-      <h2>Frontend Developer & 3D Artist</h2>
+      <h2>Full Stack Developer & 3D Artist</h2>
     </div>
   );
 
   const introText = (
     <div className={styles.introText}>
       <p>
-        I'm a passionate Frontend Developer with a strong foundation in{" "}
+        I'm a passionate Full Stack Developer with a strong foundation in{" "}
         <span className={styles.greenColor}>HTML, CSS, JavaScript,</span> and{" "}
-        <span className={styles.greenColor}>React.</span> I specialize in
-        creating <span className={styles.greenColor}>dynamic, responsive,</span>{" "}
-        and <span className={styles.greenColor}>user-friendly</span> web
-        applications that bring ideas to life.
+        <span className={styles.greenColor}>React.</span> as well as backend
+        experience with{" "}
+        <span className={styles.greenColor}>Express and PostgreSQL.</span>I
+        specialize in building{" "}
+        <span className={styles.greenColor}>dynamic, responsive,</span> and{" "}
+        <span className={styles.greenColor}>user-friendly</span> web
+        applications from front to back, turning ideas into functional and
+        polished products.
         <br />
         With an eye for <span className={styles.greenColor}>design</span> and a
         love for{" "}
         <span className={styles.greenColor}>clean, efficient code,</span> I
-        enjoy solving challenges and building intuitive interfaces that deliver
-        great user experiences.
+        enjoy solving challenges across the stack and creating seamless,
+        intuitive experiences for users.
       </p>
     </div>
   );
@@ -71,14 +75,6 @@ export default function Home() {
           </div>
         </>
       )}
-      {/*   <div className={styles.leftContent}>
-        {titleImage}
-        {introText}
-      </div>
-      <div className={styles.rightContent}>
-        {introTitle}
-        {avatar}
-      </div> */}
     </div>
   );
 }

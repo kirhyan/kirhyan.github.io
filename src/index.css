@@ -6,18 +6,6 @@
   margin: 0;
 }
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
 @media (max-width: 1150px) {
   body {
     display: flex;
@@ -38,13 +26,7 @@ body {
   font-family: "Raleway", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(
-    -50deg,
-    #9095e3 0%,
-    #472a72 25%,
-    #2b4c79 50%,
-    #15462c 100%
-  );
+  background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
   background-size: 400% 400%;
   animation: gradient 20s ease infinite;
   color: white;

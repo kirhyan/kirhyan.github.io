@@ -20,25 +20,35 @@ export default function About() {
             <span className={styles.greenColor}>creative</span> and{" "}
             <span className={styles.greenColor}>technical fields,</span> I’ve
             found my passion in{" "}
-            <span className={styles.greenColor}>web development.</span> <br />
+            <span className={styles.greenColor}>
+              full stack web development.
+            </span>{" "}
+            <br />
             <br />I hold a Double Bachelor's Degree in Business Management and
             Audiovisual Communication, and after gaining experience in{" "}
             <span className={styles.greenColor}>3D design</span> for video
-            games, I shifted my focus to the world of{" "}
-            <span className={styles.greenColor}>web development.</span>
+            games, I shifted my focus to{" "}
+            <span className={styles.greenColor}>coding</span> and{" "}
+            <span className={styles.greenColor}>building</span> for the{" "}
+            <span className={styles.greenColor}>web.</span>
             <br />
             Specializing in{" "}
             <span className={styles.greenColor}>
-              HTML, CSS, JavaScript,
+              HTML, CSS, JavaScript, React, Express,
             </span>{" "}
-            and <span className={styles.greenColor}>React,</span> I love
+            and <span className={styles.greenColor}>PostgreSQL,</span> I love
             creating dynamic, responsive, and visually engaging websites. <br />
             <br />
             My diverse experience gives me a fresh perspective on design and
             functionality, allowing me to build user-friendly web applications
-            that blend <span className={styles.greenColor}>
-              creativity
-            </span> and <span className={styles.greenColor}>performance.</span>
+            that blend{" "}
+            <span className={styles.greenColor}>
+              creativity, performance
+            </span>{" "}
+            and{" "}
+            <span className={styles.greenColor}>
+              thoughtful user experience.
+            </span>
           </p>
         </div>
         <div className={styles.column}>

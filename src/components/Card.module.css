@@ -45,6 +45,10 @@
   justify-content: center;
 }
 
+.icons3D {
+  padding-top: 0.7rem;
+}
+
 .container3D img {
   border-radius: 10px;
   box-shadow: 0 0 7px 3px rgba(72, 72, 72, 0.73);

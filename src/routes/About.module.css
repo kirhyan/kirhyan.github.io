@@ -34,6 +34,27 @@
   min-width: 500px;
 }
 
+.aboutIcons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.aboutIconsDev {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  max-width: 800px;
+  column-gap: 40px;
+  row-gap: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+}
+
 .column p {
   font-size: 1.25rem;
   text-wrap: balance;
